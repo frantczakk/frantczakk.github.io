@@ -1,0 +1,151 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #0D0D0D;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+header {
+    color: #BFAF9B  ;
+    font-family: cc-overbyte-off, sans-serif;
+    font-weight: 400;
+    font-style: italic; 
+    font-size: 30px;
+    margin-top: 0px;
+    line-height: 0.8;
+}
+
+/* Przyciski */
+.przyciski{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #BFAF9B; 
+    font-family: cc-overbyte-on, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #0D0D0D;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    margin: 5px;
+}   
+
+/* TABLICA WYNIKÓW */
+.tablica-wynikow{
+    margin-top: 20px;
+    font-family: cc-overbyte-on, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #BFAF9B;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.tablica-wynikow table{
+    width: 100px;
+    max-width: 300px    ;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+.tablica-wynikow th, .tablica-wynikow td{
+    border: 1px solid #BFAF9B;
+    padding: 10px;
+}
+
+.tablica-wynikow th{
+    background-color: #BFAF9B;
+    color: #0D0D0D;
+}
+
+/* POPUP */
+.popup 
+{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #BFAF9B;
+    border: 2px solid #0D0D0D;
+    font-family: cc-overbyte-on, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.popup button
+{
+    background-color: #734E38;
+    font-family: cc-overbyte-on, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color:#F2F2F2;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.ovr
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    z-index: 999;
+}
+
+/* stópka */
+footer{
+    background-color: #0D0D0D   ;
+    text-align: center;
+    padding: 10px 0;
+    font-family: cc-overbyte-off, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #BFAF9B;
+}
+
+footer a{
+    text-decoration: none;
+    font-family: cc-overbyte-off, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    color: #BFAF9B;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}

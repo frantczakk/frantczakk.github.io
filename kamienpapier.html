@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html lang="pl">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Papier, Kamień i Nożyce</title>
+            <link rel="stylesheet" href="styl.css">
+            <link rel="stylesheet" href="https://use.typekit.net/cpy2yiv.css">
+        </head>
+        <body>
+            <header>
+                <h1>Papier, Kamień<br>Nożyce</h1>
+            </header>
+            <main>
+                <!--TABLICA-->
+                <div class="tablica-wynikow">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>GRACZ</th>
+                                <th>RYWAL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="wynikGracza">0</td>
+                                <td id="wynikKomputera">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--PRZYCISKI-->
+                <div class="przyciski">
+                    <button id="kamien-btn">Kamień</button>
+                    <button id="papier-btn">Papier</button>
+                    <button id="nozyce-btn">Nożyce</button>
+                </div>
+
+            </main>
+            <footer>
+                <p>Projekt zrealizował <a href="https://www.github.com/frantczakk" target="_blank">Kacper Frantczak</a></p>
+            </footer>
+            <div class="popup-ovr" id="ovr"></div>
+            <div class="popup" id="popup">
+                <p id="popup-tekst"></p>
+                <button onclick="zamknijPopup()">Zamknij</button>
+            </div>
+            <script src="kamien.js"></script>
+        </body>
+    </html>
