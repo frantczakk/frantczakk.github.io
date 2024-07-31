@@ -150,24 +150,36 @@ footer a:hover{
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     header {
         font-size: 24px; /* Mniejszy rozmiar czcionki nagłówka */
     }
 
     .tablica-wynikow {
-        font-size: 24px; /* Mniejszy rozmiar czcionki tablicy wyników */
-        margin-bottom: 15px; /* Mniejszy odstęp między tablicą a przyciskami */
+        font-size: 24px;
+        margin-bottom: 15px; 
     }
 
     button {
-        font-size: 20px; /* Mniejszy rozmiar czcionki przycisków */
-        padding: 10px 20px; /* Mniejsze przyciski */
+        font-size: 40px; 
+        padding: 10px 20px; 
+        width: 100%; 
+        max-width: 300px;  
+    }
+
+    .przyciski {
+        flex-direction: column; 
+        gap: 10px; 
     }
 
     .tablica-wynikow table {
-        max-width: 100%; /* Tabela zajmuje pełną szerokość kontenera */
+        max-width: 100%; 
     }
+
+    footer {
+        font-size: 14px; 
+    }
+}
 
     footer {
         font-size: 8px; /* Mniejszy rozmiar czcionki stopki */
