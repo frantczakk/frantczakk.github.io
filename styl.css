@@ -161,7 +161,7 @@ footer a:hover{
     }
 
     button {
-        font-size: 40px; /* Mniejszy rozmiar czcionki przycisków */
+        font-size: 20px; /* Mniejszy rozmiar czcionki przycisków */
         padding: 10px 20px; /* Mniejsze przyciski */
     }
 
@@ -170,6 +170,6 @@ footer a:hover{
     }
 
     footer {
-        font-size: 14px; /* Mniejszy rozmiar czcionki stopki */
+        font-size: 8px; /* Mniejszy rozmiar czcionki stopki */
     }
 }
