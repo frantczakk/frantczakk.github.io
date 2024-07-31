@@ -32,8 +32,7 @@ header {
 /* Przyciski */
 .przyciski{
     flex: 1;
-    display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
